@@ -15,13 +15,16 @@
 
 <body>
 <div class="container">
-    <div class="my-5">
-        <label for="exampleFormControlInput1" class="form-label">Parola da censurare</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="inserisci una parola">
-    </div>
-    <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Paragrafo</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
+    <form action="paragrafo.php">
+        <div class="my-5">
+            <label for="exampleFormControlInput1" class="form-label">Parola da censurare</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="inserisci una parola" name="parola">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Paragrafo</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" name="paragrafo"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark">Invia</button>
+    </form>
 </div>
 </body>
