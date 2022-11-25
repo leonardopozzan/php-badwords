@@ -22,7 +22,9 @@ $pCensoredLength = strlen($pCensored);
 
 <body>
 <div class="container mt-5">
-    <h2>Numero di caratteri del testo: <?php echo $pCensoredLength ?></h2>
-    <p><?php echo $pCensored ?></p>
+    <h2>Numero di caratteri del testo inserito: <?php echo $pLength ?></h2>
+    <p class="fs-3"><?php echo $p ?></p>
+    <h2>Numero di caratteri del testo censurato: <?php echo $pCensoredLength ?></h2>
+    <p class="fs-3"><?php echo $pCensored ?></p>
 </div>
 </body>
